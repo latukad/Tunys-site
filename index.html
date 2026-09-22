@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="TUNYS KI Studio is a local desktop tool for creating original AI-assisted video content and managing authorized YouTube workflows.">
+  <title>TUNYS KI Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <a class="brand" href="./"><span class="mark">T</span><span>TUNYS KI Studio</span></a>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#youtube">YouTube access</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <div class="badge"><span class="dot"></span> Local-first creator tooling</div>
+    <h1><span>Create. Review. Publish.</span><br>From one local studio.</h1>
+    <p class="lead">
+      TUNYS KI Studio is a desktop-based workflow for creating original AI-assisted video content,
+      reviewing output, and managing authorized YouTube actions for the project owner.
+      The software is designed around local processing, explicit account authorization, and private-first publishing.
+    </p>
+    <div class="cta">
+      <a class="btn primary" href="#about">Learn how it works</a>
+      <a class="btn secondary" href="privacy.html">Read the privacy policy</a>
+    </div>
+  </div>
+
+  <div class="wrap grid" id="about">
+    <article class="card">
+      <h3>Original content workflow</h3>
+      <p>TUNYS helps prepare original videos using local AI and creator-controlled source material.</p>
+    </article>
+    <article class="card">
+      <h3>Private-first YouTube upload</h3>
+      <p>Authorized uploads are created as private first so they can be checked before any later status change.</p>
+    </article>
+    <article class="card">
+      <h3>Local account credentials</h3>
+      <p>OAuth credentials and refresh tokens used by the desktop application are stored on the user's own computer.</p>
+    </article>
+  </div>
+
+  <section id="youtube">
+    <div class="wrap">
+      <div class="kicker">Google / YouTube integration</div>
+      <h2 class="section-title">What the YouTube connection is used for</h2>
+      <p class="muted" style="max-width:820px">
+        When the project owner explicitly connects a Google account, TUNYS uses the granted YouTube permissions
+        to read relevant channel/video status, upload videos as private, verify processing state, and update
+        publishing status or scheduling when requested by the user.
+      </p>
+      <div class="steps" style="margin-top:28px">
+        <div class="step"><div class="num">1</div><div><strong>Authorize</strong><br><span class="muted">The user grants access through Google's OAuth consent flow.</span></div></div>
+        <div class="step"><div class="num">2</div><div><strong>Create & review</strong><br><span class="muted">Content is generated locally and passes project quality checks.</span></div></div>
+        <div class="step"><div class="num">3</div><div><strong>Upload privately</strong><br><span class="muted">The YouTube upload starts in private status.</span></div></div>
+        <div class="step"><div class="num">4</div><div><strong>Publish only when authorized</strong><br><span class="muted">Any later status or scheduling action is performed through the connected account and its granted permissions.</span></div></div>
+      </div>
+      <div class="notice" style="margin-top:28px">
+        TUNYS does not sell Google user data, does not use Google user data for advertising, and does not expose OAuth tokens on this website.
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap footerline">
+    <div>© 2026 TUNYS KI Studio</div>
+    <div><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></div>
+  </div>
+</footer>
+</body>
+</html>
